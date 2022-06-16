@@ -1,0 +1,29 @@
+{
+  "name": "e-mall-backend",
+  "version": "1.0.0",
+  "description": "e-mall-backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Taguara Digital",
+  "license": "ISC",
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.27.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mssql": "^7.3.0",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "stripe": "^8.186.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
