@@ -1,6 +1,6 @@
 const mysql = require('mysql');
 let dbConnection = mysql.createConnection({
-  connectionLimit: 5,
+  connectionLimit: 15,
   host: process.env.RDBHOST,
   database: process.env.RDBNAME,
   user: process.env.RDBUSER,
